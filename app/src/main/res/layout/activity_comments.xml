@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CommentsActivity">
+    tools:context=".CommentsActivity"
+    android:gravity="start">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_layout_comments"
@@ -57,9 +58,9 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/commentRelative"
         android:layout_below="@+id/post_image_comment"
-        android:layout_margin="5dp"
+        android:layout_margin="5dp"/>
 
-        ></androidx.recyclerview.widget.RecyclerView>
+<!--    </androidx.recyclerview.widget.RecyclerView>-->
 
 
     <RelativeLayout
